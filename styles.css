@@ -74,6 +74,7 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababab;
+    background: #111111;
 }
 
 .row{
@@ -135,7 +136,11 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-
+#skills i{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
 /* --------- SERVICES ----------- */
 #services{
     padding: 30px 0;
