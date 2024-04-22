@@ -376,9 +376,9 @@ body {
 
 
 
-                        /* ---------------- CONTACT SECTION--------------------         */
+                        /* ---------------- CONTACT SECTION-------------------- */
 
-    /* Basic styles for Contact section */
+/* Basic styles for Contact section */
 #contact .container {
     text-align: center; /* Center text by default */
 }
@@ -387,60 +387,11 @@ body {
     margin-bottom: 20px; /* Ensure spacing between sections */
 }
 
-.contact-form .btn,
 .social-icons a {
     width: 100%; /* Full width for buttons on smaller screens */
     margin-bottom: 10px; /* Space between buttons */
 }
 
-/* Centering items in the form and the contact information */
-.contact-form input,
-.contact-form textarea {
-    width: 100%; /* Ensure full width */
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .social-icons a,
-    .contact-form .btn {
-        display: block; /* Stack the elements */
-    }
-
-    #contact .col-md-6 {
-        width: 100%; /* Stack columns vertically on small screens */
-    }
-
-    /* Center align the social icons and buttons */
-    .social-icons,
-    .contact-form {
-        text-align: center;
-    }
-    
-    /* Adjustments to the form elements for better mobile experience */
-    .contact-form input,
-    .contact-form textarea,
-    .contact-form button {
-        margin: auto; /* Center-align form elements */
-        max-width: 300px; /* Limit width for better aesthetics */
-    }
-}
-
-/* Additional styling for visual consistency and aesthetics */
-#contact h2 {
-    margin-bottom: 20px; /* Space below the header */
-}
-
-.social-icons a,
-.contact-form button {
-    padding: 10px 20px; /* Padding for better touch targets */
-}
-
-/* Style for the Download Resume button */
-#contact .btn-success {
-    margin-top: 20px; /* Space above the button */
-}
-
-/* Centering and styling the social icons container */
 /* Centering and styling the social icons container */
 .social-icons {
     display: flex;
@@ -478,15 +429,16 @@ body {
 }
 
 
-                    /* Footer Styles */
-.text-center {
-    text-align: center; /* Centers the text within the div */
-    background-color: white; /* Light grey background for the footer */
-    padding: 20px 0; /* Adds padding above and below the text */
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Ensures text is centered */
+    background-color: white; /* Keeps background white or change as per theme */
+    padding: 20px 0; /* Consistent padding */
+    border-top: 1px solid #eaeaea; /* Adds a subtle border for definition */
 }
 
 .copywrite {
-    color: var(--secondary-color); /* Sets the text color to a muted grey */
-    font-size: 16px; /* Sets a specific font size */
-    margin: 0; /* Removes default margin to control spacing better */
+    color: #707070; /* Ensures good readability */
+    font-size: 16px; /* Keeps text reasonably sized */
 }
